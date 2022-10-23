@@ -42,6 +42,29 @@ header {
   position: relative;
 }
 
+.cad {
+  background-color: #fff;
+  color: #333;
+  border-radius: 50px;
+  padding: 40px 50px;
+  margin: 20px 0;
+  padding: 5px;
+  line-break: strict;
+  position: relative;
+}
+
+.cad.reverse {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+.cad h2 {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
+
 .card.reverse {
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
@@ -127,16 +150,16 @@ input:focus {
 }
 
 .num-display {
-  position: absolute;
+  position: relative;
   top: -10px;
   left: -10px;
 }
 
 .close,
 .edit {
-  position: absolute;
-  top: 10px;
-  right: 20px;
+  position: relative;
+  top: -60px;
+  left: 500px;
   cursor: pointer;
   background: none;
   border: none;
